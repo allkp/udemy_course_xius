@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib>
+<tlib-version>2.0</tlib-version>
+<jsp-version>2.0</jsp-version>
+<shortname>userInformation</shortname>
+<info>This library displays the user information</info>
+<uri>http://allkp.com</uri>
+
+<tag>
+	<name>displayUser</name>
+	<tagclass>com.example.customTags.RequestHandler</tagclass>
+	<info>Displays the user information</info>
+
+</tag>
+
+</taglib>

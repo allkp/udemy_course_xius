@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Open Account</title>
+<style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center; /* Horizontally centers the content */
+            align-items: center; /* Vertically centers the content */
+        }
+ </style>
+</head>
+<body>
+	<form action="openAccount.jsp" method="post">
+	Account No : 
+		<input type="text" name="accno" placeholder="Account_Number..." />
+		<br/><br/> 
+	Last Name :
+		<input type="text" name="lastname" placeholder="Last_Name..." />
+		<br/><br/>
+	First Name : 
+		<input type="text" name="firstname" placeholder="First_Name..." /> 
+		<br/><br/>
+	Balance : 
+		<input type="text" name="bal" placeholder="Balance..." />
+		<br/><br/>
+		<input type="submit" value="Submit" />
+	</form>
+</body>
+</html>

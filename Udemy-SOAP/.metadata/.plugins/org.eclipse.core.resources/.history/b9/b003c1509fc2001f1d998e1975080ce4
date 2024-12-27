@@ -1,0 +1,8 @@
+insert into users (id, name, date_of_birth) 
+values(101, 'Lokesh', '2001-12-24');
+
+insert into users (id, name, date_of_birth) 
+values(102, 'Siva', '2001-12-24');
+
+insert into users (id, name, date_of_birth) 
+values(103, 'Channa', '2000-12-24');

@@ -1,0 +1,32 @@
+package com.example.rest.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.rest.dao.UserDaoService;
+import com.example.rest.user.User;
+
+@RestController
+public class UserController {
+	
+	private UserDaoService daoService;
+	
+	public UserController(UserDaoService daoService) {
+		this.daoService = daoService;
+	}
+	
+	@GetMapping("/users")
+	public List<User> getAllUsers(){
+		return daoService.getAllUsers();
+	}
+	
+	@GetMapping("/users/{id}")
+	public User getById(@PathVariable int id) {
+		User user = daoService.getById(id);
+		return user;
+	}
+
+}

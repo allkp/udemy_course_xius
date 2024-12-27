@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;of&apos; from expression &apos;List.of(2,3,8,5,7,1,4,6,9,10)&apos;&#x0D;&#x0A;- Original project: &apos;FunctionalProgramming_JAVA&apos;&#x0D;&#x0A;- Variable name: &apos;of&apos;&#x0D;&#x0A;- Destination method: &apos;com.functional.programming.FP01_Structured.main(...)&apos;&#x0D;&#x0A;- Variable expression: &apos;List.of(2,3,8,5,7,1,4,6,9,10)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;of&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.functional.programming{FP01_Structured.java" name="of" replace="true" replaceAllInThisFile="false" selection="164 38" stamp="1735233890007" varType="false" version="1.0"/>
+</session>

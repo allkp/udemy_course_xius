@@ -1,0 +1,9 @@
+package com.example.rest.version;
+
+
+
+public class PersonV2 {
+	
+	private NameBean name;
+
+}

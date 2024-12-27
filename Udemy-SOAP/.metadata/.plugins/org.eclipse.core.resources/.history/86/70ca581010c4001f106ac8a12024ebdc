@@ -1,0 +1,15 @@
+package com.functional.programming;
+
+import java.util.List;
+import java.util.function.Predicate;
+
+public class FP05_Optional {
+
+	public static void main(String[] args) {
+		List<String> fruitsList = List.of("Apple", "Banana", "Mango", "Lichi", "Kiwi");
+		
+		Predicate<? super String> predicate = fr -> fr.startsWith("b");
+		fruitsList.stream().filter(predicate).findFirst();
+	}
+	
+}

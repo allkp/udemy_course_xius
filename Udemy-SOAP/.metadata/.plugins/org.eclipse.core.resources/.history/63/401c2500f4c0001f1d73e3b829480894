@@ -1,0 +1,29 @@
+package com.example.rest.exception;
+
+import java.time.LocalDateTime;
+
+import org.springframework.validation.FieldError;
+
+public class ErrorDetails {
+
+	private LocalDateTime timeStamp;
+	private FieldError msg;
+	private String details;
+	public ErrorDetails(LocalDateTime timeStamp, FieldError msg, String details) {
+		super();
+		this.timeStamp = timeStamp;
+		this.msg = msg;
+		this.details = details;
+	}
+	public LocalDateTime getTimeStamp() {
+		return timeStamp;
+	}
+	public FieldError getMsg() {
+		return msg;
+	}
+	public String getDetails() {
+		return details;
+	}
+
+	
+}

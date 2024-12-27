@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.example.spring.SpringFrameWorkApplication"/>
+    <fullyQualifiedTypeName name="com.example.spring.game.PackManGame"/>
+    <fullyQualifiedTypeName name="com.example.spring.game.GamingConsole"/>
+    <fullyQualifiedTypeName name="com.example.spring.game.MarioGame"/>
+    <fullyQualifiedTypeName name="com.example.spring.game.GameRunner"/>
+    <fullyQualifiedTypeName name="com.example.spring.enterprise.example.MyWebController"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.example.spring.enterprise.example.DataService"/>
+    <fullyQualifiedTypeName name="com.example.spring.enterprise.example.BusinessService"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.context.properties.ConfigurationProperties"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="com.example.spring_boot.CurrencyServiceConfig"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+</qualifiedTypeNameHistroy>

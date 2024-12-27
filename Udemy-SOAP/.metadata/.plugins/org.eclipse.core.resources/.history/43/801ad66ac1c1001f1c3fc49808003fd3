@@ -1,0 +1,5 @@
+package com.example.rest.jpa_hibernate.course.repo.springdataJPA;
+
+public class CourseSpringDataJpaRepository {
+
+}

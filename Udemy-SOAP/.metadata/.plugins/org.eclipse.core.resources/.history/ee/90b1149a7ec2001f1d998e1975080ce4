@@ -1,0 +1,2 @@
+insert into users (id, name, date_of_birth) 
+values(1, 'Lokesh', current_date());

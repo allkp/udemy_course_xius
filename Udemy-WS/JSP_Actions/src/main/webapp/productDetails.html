@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Product Details</title>
+<style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center; /* Horizontally centers the content */
+            align-items: center; /* Vertically centers the content */
+        }
+ </style>
+</head>
+<body>
+  	<form action="displayDetails.jsp" method="post">
+			Product Id: <input type="text" name="id"/><br/>
+			<br/>
+			Product Name: <input type="text" name="name"/><br/>
+			<br/>
+			Product Description: <input type="text" name="description"/><br/>
+			<br/>
+			Product price:  <input type="text" name="price"/><br/>
+			<br/>
+			<input type="submit" value="Submit" />
+		</form>
+ </body>
+</html>

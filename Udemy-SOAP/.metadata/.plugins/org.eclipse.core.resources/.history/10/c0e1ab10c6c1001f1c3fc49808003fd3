@@ -1,0 +1,15 @@
+package com.example.rest.jpa_hibernate.course.repo.springdataJPA;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.rest.jpa_hibernate.course.model.Course;
+
+
+
+public interface CourseSpringDataJpaRepository extends JpaRepository<Course, Integer>{
+	
+	public List<Course> findByAuthor(String author);
+
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GetCourseDetailsResponse
+        xmlns="http://soap.udemy.com/courses"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+        xsi:schemaLocation="http://soap.udemy.com/courses course-details.xsd"
+>
+    <CourseDetails>
+        <id>25</id>
+        <name>Spring Boot</name>
+        <description>You are learning basics of SOAP Web Services in Spring
+            Boot</description>
+    </CourseDetails>
+</GetCourseDetailsResponse>

@@ -1,0 +1,17 @@
+package com.functional.programming;
+
+import java.util.List;
+
+public class FP01_Structured {
+
+	public static void main(String[] args) {
+		PrintAllNumbersList(List.of(2, 3, 8, 5, 7, 1, 4, 6, 9, 10));
+	}
+
+	private static void PrintAllNumbersList(List<Integer> numList) {
+		for(int num:numList) {
+			System.out.println(num);
+		}
+	}
+	
+}
